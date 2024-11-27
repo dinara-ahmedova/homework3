@@ -7,10 +7,14 @@ public class Main {
         int oranges = 100;
         short seeds = 1000;
         long cells = 1000000L;
+        float percent = 0.5f;
+        double percent2 = 1.52454;
         System.out.println("Значение переменной " + people + " с типом byte равно 10");
         System.out.println("Значение переменной " + oranges + " с типом int равно 100");
         System.out.println("Значение переменной " + seeds + " с типом short равно 1000");
         System.out.println("Значение переменной " + cells + " с типом long равно 1000000");
+        System.out.println("Значение переменной " + percent + " с типом float равно 0,5");
+        System.out.println("Значение переменной " + percent2 + " с типом double равно 1,52454");
 
         System.out.println("Задача 2");
         float one = 27.12f;
@@ -124,35 +128,6 @@ public class Main {
         float annualIncomeAfterTheIncreaseKristina = kristinaMonthPrizeAfterThePromotion * monthsOfTheYear;
         float differenceInAnnualIncomeKristina = annualIncomeAfterTheIncreaseKristina - annualIncomeBeforeTheIncreaseKristina;
         System.out.println("Разница между годовым доходом до и после повышения Кристины составляет " + differenceInAnnualIncomeKristina + " рублей.");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
